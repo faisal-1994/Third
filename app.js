@@ -42,8 +42,8 @@ app.use(bodyParser.json());
 
 
 // Connect to  Mongo DB 
- let URI = "mongodb+srv://faisal:faisal1994@cluster0.981m0ts.mongodb.net/ToDo?retryWrites=true&w=majority"; 
- let OPTION = { user: "faisal", pass: "faisal1994", autoIndex:true };
+ let URI = "mongodb+srv://user:pass@cluster0.981m0ts.mongodb.net/ToDo?retryWrites=true&w=majority"; 
+ let OPTION = { user: "", pass: "", autoIndex:true };
 
 
 let connectMongo = mongoose.connect(URI, OPTION);
